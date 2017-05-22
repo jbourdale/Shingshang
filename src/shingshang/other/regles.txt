@@ -1,0 +1,36 @@
+DEROULEMENT DU JEU
+Le joueur bleu commence. Lors de son tour de jeu un joueur doit déplacer l'un de ses pions selon les règles suivantes :
+Les singes peuvent
+- soit se déplacer de une ou deux cases dans n'importes quelles direction, horizontalement,  verticalement ou en
+diagonal mais sans changer de direction au cours du tour.
+- soit effectuer un ou une série de sauts (voir plus loin)	
+Les Lions peuvent
+- soit se déplacer de une case dans n'importes quelles direction, horizontalement, verticalement ou en diagonal.
+- soit effectuer un ou une série de sauts (voir plus loin)
+Les dragons ne peuvent se déplacer qu'en sautant.
+Les sauts : 
+- un pion peut sauter un pion à condition que le pion sauté soit de même taille ou de taille inférieure. Un dragon
+peut sauter par dessus un autre dragon, un lions ou un singe. Un Lion peut sauter par dessus un autre lion ou un
+singe. Un singe ne peut sauter que par dessus un autre singe.
+- De plus il faut qu'au départ de sont mouvement, la figurine se trouve sur une case  contiguë à une case occupée
+par une figurine rouge ou noire, elle peut sauter la pièce,  verticalement, horizontalement ou en diagonale, à
+condition que la case suivante soit vide. On peut enchaîner plusieurs sauts au cours d'un même tour (Shingshang). 
+Si au cours d'un Shing Shang on saute par dessus une ou plusieurs figurines adverses, celle-ci sont retiré du plateau. 
+On ne retire pas de figurine adverse pour un saut simple.
+
+FIN DU JEU
+Un joueur gagne la partie lorsqu'il parvient à amener l'un de ses dragons sur l'un des  portails de son adversaire ou
+qu'il capture les deux dragons de son adversaire.
+
+LANCEMENT DU JEU
+java Shingshang > Lancement du jeu en mode graphique
+java Shingshang -nogui > Lancement du jeu en mode texte
+
+INSTRUCTION
+Mode graphique : Utiliser le clic pour selectionner, bouger les pions etc...
+Mode texte : Utiliser les entrées stdin.
+Touche F : Fin de tour
+Touche S : Sauvegarde
+Touche M : En mode graphique, couper/reactiver la musique
+
+Crédit : © Jules Bourdalé & Hugo Da Roit. Jeu réalisé dans le but du projet java. DUT Informatique Caen.
